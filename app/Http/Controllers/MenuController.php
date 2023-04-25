@@ -20,6 +20,10 @@ class MenuController extends Controller
         return view ('carreras');
 
     }
+    public function carrera($carrera)
+    {
+        return view('carrera', ['carrera' => $carrera]);
+    }
 
 
 }

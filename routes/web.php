@@ -14,5 +14,5 @@ Route::get('/calendario', [MenuController::class, 'calendario'])->name ('calenda
 
 Route::get('/carreras', [MenuController::class, 'carreras'])->name('carreras');
 
-
+Route::get('/carrera/{carrera}', [MenuController::class, 'carrera'])->name('carrera');
 
