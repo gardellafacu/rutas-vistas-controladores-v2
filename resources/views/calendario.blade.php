@@ -1,12 +1,6 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Rutas, vistas y controladores</title>
-</head>
-<body>
+@extends('layout')
+
+@section('content')
     <h2>Calendario academico</h2>
     <hr>
     <ul>
@@ -17,8 +11,5 @@
         <li>Inicio Segundo Cuatrimestre: 14/08</li>
         <li>Finalización Segundo Cuatrimestre: 24/11</li>
         <li>Acto Finalización de Trayectoria Académica: 20/12</li>
-      
-
     </ul>
-</body>
-</html>
+@endsection
